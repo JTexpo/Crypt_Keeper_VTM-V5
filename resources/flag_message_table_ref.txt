@@ -1,0 +1,5 @@
+CREATE TABLE flag_message_table (
+db_ID		INTEGER		PRIMARY KEY AUTOINCREMENT,
+author_ID	INTEGER		NOT NULL,
+flag_word	VARCHAR(40)	NOT NULL
+);
